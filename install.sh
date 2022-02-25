@@ -12,7 +12,7 @@ function banner(){
 
 function termuxOS() {
     echo -e "$red [$green+$red]$off Installing Python ...";
-    pkg install python
+    
     echo -e "$red [$green+$red]$off Installing Packages ...";
     pip install -r ./requirements.txt
     echo -e "$red [$green+$red]$off Checking directories ..."
